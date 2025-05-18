@@ -1,0 +1,94 @@
+PODS:
+  - AEOTPTextField (1.2.6)
+  - Alamofire (5.10.1)
+  - CombineCocoa (0.4.1)
+  - CRRefresh (1.1.3)
+  - FittedSheets (2.7.1)
+  - FSPagerView (0.8.3)
+  - Kingfisher (8.1.0)
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+  - NVActivityIndicatorView/Extended (5.2.0):
+    - NVActivityIndicatorView/Base
+  - PhoneNumberKit (4.0.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 4.0.0)
+    - PhoneNumberKit/UIKit (= 4.0.0)
+  - PhoneNumberKit/PhoneNumberKitCore (4.0.0)
+  - PhoneNumberKit/UIKit (4.0.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - ReachabilitySwift (5.2.4)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxSwiftExt (6.2.1):
+    - RxSwiftExt/Core (= 6.2.1)
+    - RxSwiftExt/RxCocoa (= 6.2.1)
+  - RxSwiftExt/Core (6.2.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SnapKit (5.7.1)
+  - SwiftyJSON (5.0.2)
+
+DEPENDENCIES:
+  - AEOTPTextField
+  - Alamofire
+  - CombineCocoa
+  - CRRefresh
+  - FittedSheets
+  - FSPagerView
+  - Kingfisher
+  - NVActivityIndicatorView
+  - NVActivityIndicatorView/Extended
+  - PhoneNumberKit
+  - ReachabilitySwift
+  - RxSwift (= 6.5.0)
+  - RxSwiftExt (= 6.2.1)
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - AEOTPTextField
+    - Alamofire
+    - CombineCocoa
+    - CRRefresh
+    - FittedSheets
+    - FSPagerView
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PhoneNumberKit
+    - ReachabilitySwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AEOTPTextField: a275823fde05601c5da7f8fb66aaecb41289b370
+  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  FittedSheets: 38ec85129bf5c970f99d4dba4fbf48185c5fa98a
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  Kingfisher: dfbf20b6249ed4ef6f18d6a96c847bce860bdb95
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+  PhoneNumberKit: fca23e22dcd17f602577f177bdd502512190e52e
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+
+PODFILE CHECKSUM: 9576b38f1a2e2f3cbe94d57b0d4325c489e815fe
+
+COCOAPODS: 1.16.2

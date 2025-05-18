@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="CartAddMoreTableViewCell" customModule="FoodDelivery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m9K-xd-I8H">
+                        <rect key="frame" x="9" y="0.0" width="302" height="61"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwe-Ug-7vg">
+                                <rect key="frame" x="58.666666666666686" y="8" width="185" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="xyt-iK-M8F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Add More Food Items">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.054901960780000002" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pwe-Ug-7vg" firstAttribute="centerX" secondItem="m9K-xd-I8H" secondAttribute="centerX" id="0Pp-qh-nc2"/>
+                            <constraint firstAttribute="bottom" secondItem="pwe-Ug-7vg" secondAttribute="bottom" constant="8" id="416-Pj-lOa"/>
+                            <constraint firstAttribute="height" constant="61" id="Dhb-Xe-4i7"/>
+                            <constraint firstItem="pwe-Ug-7vg" firstAttribute="top" secondItem="m9K-xd-I8H" secondAttribute="top" constant="8" id="z1O-uN-W9B"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="m9K-xd-I8H" secondAttribute="trailing" constant="9" id="0xR-xi-TvC"/>
+                    <constraint firstItem="m9K-xd-I8H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="fsq-LN-7Sb"/>
+                    <constraint firstItem="m9K-xd-I8H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pDF-Jh-B0R"/>
+                    <constraint firstAttribute="bottom" secondItem="m9K-xd-I8H" secondAttribute="bottom" constant="9" id="zoE-IY-LEu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAddMore" destination="pwe-Ug-7vg" id="klJ-UQ-onc"/>
+            </connections>
+            <point key="canvasLocation" x="91.603053435114504" y="28.87323943661972"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

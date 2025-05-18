@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FavResturantCollectionViewCell" customModule="FoodDelivery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="191" height="217"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="191" height="217"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZV-h6-ard">
+                        <rect key="frame" x="0.0" y="0.0" width="191" height="217"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rax-s5-kI7">
+                                <rect key="frame" x="8" y="0.0" width="175" height="217"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DDZ-t7-gsG">
+                                        <rect key="frame" x="0.0" y="0.0" width="175" height="152"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_res" translatesAutoresizingMaskIntoConstraints="NO" id="gJX-ps-ZRW">
+                                                <rect key="frame" x="0.0" y="0.0" width="175" height="152"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="gJX-ps-ZRW" firstAttribute="leading" secondItem="DDZ-t7-gsG" secondAttribute="leading" id="3Zk-HF-u1m"/>
+                                            <constraint firstAttribute="height" constant="152" id="Dye-VY-ADk"/>
+                                            <constraint firstAttribute="bottom" secondItem="gJX-ps-ZRW" secondAttribute="bottom" id="EKL-sW-LsT"/>
+                                            <constraint firstAttribute="trailing" secondItem="gJX-ps-ZRW" secondAttribute="trailing" id="aAG-dK-Ae5"/>
+                                            <constraint firstItem="gJX-ps-ZRW" firstAttribute="top" secondItem="DDZ-t7-gsG" secondAttribute="top" id="e0s-bE-BbC"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbo-iR-hxZ">
+                                        <rect key="frame" x="0.0" y="152" width="175" height="65"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Rax-s5-kI7" secondAttribute="bottom" id="1tO-Xh-ZN3"/>
+                            <constraint firstAttribute="trailing" secondItem="Rax-s5-kI7" secondAttribute="trailing" constant="8" id="Wwa-Ny-DVq"/>
+                            <constraint firstItem="Rax-s5-kI7" firstAttribute="top" secondItem="pZV-h6-ard" secondAttribute="top" id="ecj-Dc-nep"/>
+                            <constraint firstItem="Rax-s5-kI7" firstAttribute="leading" secondItem="pZV-h6-ard" secondAttribute="leading" constant="8" id="hpM-Zg-Ujy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="pZV-h6-ard" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Gxu-sW-vTj"/>
+                <constraint firstAttribute="bottom" secondItem="pZV-h6-ard" secondAttribute="bottom" id="cof-eG-aYY"/>
+                <constraint firstItem="pZV-h6-ard" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nfS-hM-KU4"/>
+                <constraint firstAttribute="trailing" secondItem="pZV-h6-ard" secondAttribute="trailing" id="pqZ-Ax-HZN"/>
+            </constraints>
+            <size key="customSize" width="191" height="217"/>
+            <point key="canvasLocation" x="156.4885496183206" y="79.225352112676063"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_res" width="140" height="140"/>
+    </resources>
+</document>
